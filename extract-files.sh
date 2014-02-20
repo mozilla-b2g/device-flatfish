@@ -32,7 +32,7 @@ else
 fi
 
 case "$DEVICE_BUILD_ID" in
-flatfish*)
+flatfish*|full_flatfish*)
   FIRMWARE=JB
   echo Found JB firmware with build ID $DEVICE_BUILD_ID >&2
   ;;
