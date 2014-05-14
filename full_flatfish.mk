@@ -90,3 +90,6 @@ PRODUCT_NAME   := full_flatfish
 PRODUCT_DEVICE := flatfish
 PRODUCT_MODEL  := B2G on flatfish
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+# Add GAIA flag to support tablet distribution
+GAIA_DEVICE_TYPE := tablet
